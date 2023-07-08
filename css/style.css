@@ -22,17 +22,6 @@ body {
     cursor: pointer;
 }
 
-/* Header Css */
-
-.header-container {
-    max-width: 100%; 
-    height: auto; 
-    background: #FFF8F3;
-    background-image: url('../images/header_bg_blue.png'), url('../images/developer.png');
-    background-position: bottom right, bottom left;
-    background-repeat: no-repeat;
-    background-size: 600px, auto;
-}
 
 /* Nav css */
 
@@ -71,5 +60,50 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.nav-container {
+    padding-top: 40px;
+}
+
+/* Header Css */
+
+.header-container {
+    max-width: 100%; 
+    height: auto; 
+    background: #FFF8F3;
+    background-image: url('../images/header_bg_blue.png'), url('../images/developer.png');
+    background-position: bottom right, bottom left;
+    background-repeat: no-repeat;
+    background-size: 600px, 80px;
+}
+
+.greeting{
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.hello{
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.intro{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.intro-container{
+    display: flex;
+}
+
+#contact-btn{
+    background-color: #FFF8F3;
+    border: 1px solid #532cdf;
+    color: #532cdf;
+    margin-left: 10px;
+    padding: 9px 24px;
 }
 
