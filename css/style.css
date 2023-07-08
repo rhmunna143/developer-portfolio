@@ -1,0 +1,75 @@
+/* Universal css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Shared CSS */
+
+body {
+    font-family: Open Sans;
+    line-height: normal;
+    color: #474747;
+}
+
+.btn-primary{
+    background-color:#532cdf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+/* Header Css */
+
+.header-container {
+    max-width: 100%; 
+    height: auto; 
+    background: #FFF8F3;
+    background-image: url('../images/header_bg_blue.png'), url('../images/developer.png');
+    background-position: bottom right, bottom left;
+    background-repeat: no-repeat;
+    background-size: 600px, auto;
+}
+
+/* Nav css */
+
+.logo p span {
+    color: #532cdf;
+}
+
+.logo p{
+    color: #181818;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.logo p .logo-text{
+    height: 120px;
+    width: 60px;
+}
+
+.nav-menu ul li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
