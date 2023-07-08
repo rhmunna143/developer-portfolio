@@ -267,20 +267,56 @@ body {
 }
 
 #ib img {
-    margin-right: 10px;
+    margin-right: 15px;
 }
+
+.cards2-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .card2 {
+    width: 50%;
+} */
 
 #feefty {
     width: 50%; !important
 }
 
-#foot-form input [type="text"], textarea {
+input {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
     border-radius: 5px;
     border: 0px;
-    background-color: #ffffff;
-    color: #757575;
+    background-color: #b9a4e8;
+    color: black;
     width: 100%;
+}
+
+::placeholder {
+    text-align: left;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: #b9a4e8;
+    color: #000000;
+    width: 100%;
+}
+
+.card2 img {
+    margin-right: 15px;
+}
+
+.footer-container {
+    margin-bottom: 100px;
+}
+
+.card2 {
+    line-height: 30px;
 }
